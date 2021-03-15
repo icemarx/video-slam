@@ -2,6 +2,7 @@
 #define MARKER_INFO_H
 
 #include <opencv2\opencv.hpp>
+#include <opencv2\core\quaternion.hpp>
 
 
 class MarkerInfo {
@@ -41,7 +42,9 @@ public:
     float current_camera_pose_orientation_w;
     */
     cv::Mat current_camera_pose_position;
-    cv::Mat current_camera_pose_orientation;
+    // Mat current_camera_pose_orientation;
+    cv::Quat<float> current_camera_pose_orientation;
+
 
 
     // constructors & deconstructors
