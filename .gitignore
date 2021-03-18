@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 VideoSLAM/MarkerImages/
 VideoSLAM/InputVideos/
+VideoSLAM/Calibration/

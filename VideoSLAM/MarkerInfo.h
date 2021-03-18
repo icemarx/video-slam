@@ -43,7 +43,7 @@ public:
     */
     cv::Mat current_camera_pose_position;
     // Mat current_camera_pose_orientation;
-    cv::Quat<float> current_camera_pose_orientation;
+    cv::Quat<double> current_camera_pose_orientation;
 
 
 
