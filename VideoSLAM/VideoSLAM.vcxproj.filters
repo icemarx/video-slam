@@ -24,6 +24,9 @@
     <ClInclude Include="MarkerInfo.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="CamCalib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MarkerInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CamCalib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
