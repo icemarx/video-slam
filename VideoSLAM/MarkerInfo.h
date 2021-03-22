@@ -1,9 +1,6 @@
 ﻿#ifndef MARKER_INFO_H
 #define MARKER_INFO_H
 
-#include <opencv2\opencv.hpp>
-#include <opencv2\core\quaternion.hpp>
-
 
 class MarkerInfo {
 public:
