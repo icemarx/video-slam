@@ -32,12 +32,7 @@ public:
     float current_camera_pose_position_x;
     float current_camera_pose_position_y;
     float current_camera_pose_position_z;
-    /* NOTE: ignore this untill you absolutely need this (and then implement rotation matrix to quaternion conversion :) )
-    float current_camera_pose_orientation_x;
-    float current_camera_pose_orientation_y;
-    float current_camera_pose_orientation_z;
-    float current_camera_pose_orientation_w;
-    */
+
     cv::Mat current_camera_pose_position;
     // Mat current_camera_pose_orientation;
     cv::Quat<double> current_camera_pose_orientation;
