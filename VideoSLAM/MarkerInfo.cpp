@@ -3,7 +3,7 @@
 
 MarkerInfo::MarkerInfo() {
     this->visible = false;
-    this->previous_marker_id = -1;
+    this->previous_marker_index = -1;
     this->marker_id = -1;
 }
 

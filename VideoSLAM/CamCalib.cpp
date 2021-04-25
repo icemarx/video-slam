@@ -65,7 +65,7 @@ double calibrateAndReproject(vector<vector<Point2f>> imagePoints, Size grid_size
 
 
 int CamCalib::myCalibrateCamera(string fileName, bool preview) {
-    int limit = 130;                     // limit the number of images needed
+    int limit = 29;                     // limit the number of images needed
     double max_reprojection_error = 0.01;  // threshold at which the calibration is good enough    TODO: find proper threshold
     bool first = true;
     int num_images = 100;                // number of images used for calibration

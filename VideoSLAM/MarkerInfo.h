@@ -6,7 +6,7 @@ class MarkerInfo {
 public:
     // attributes
     bool visible;
-    int previous_marker_id;
+    int previous_marker_index;
     int marker_id;
 
     // relative to world transformation
