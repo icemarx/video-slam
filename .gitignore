@@ -353,3 +353,5 @@ VideoSLAM/InputVideos/
 VideoSLAM/Calibration/
 VideoSLAM/UsedCalibrationImages/
 VideoSLAM/Results/
+VideoSLAM/DeconVid/
+VideoSLAM/TransferToVis.sh
